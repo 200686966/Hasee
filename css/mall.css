@@ -1,0 +1,86 @@
+/* 周边 */
+#mcmall{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 64px 0 90px 0;
+}
+.mallshow{
+    display: flex;
+    justify-content: space-between;
+}
+.mallimg img{
+    width: 286px;
+    height: 250px;
+    background: #f2f2f2;
+}
+#mcmall .mallshow .num{
+    margin-top: 00px;
+}
+
+/* 页脚 */
+footer{
+    width: 100%;
+    background: #e6e6e6;
+}
+/* 页脚顶部 */
+.footerT{
+    width: 1180px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 23px 0 26px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footerT dl{
+    width: 234px;
+    text-align: center;
+}
+.footerT dt{
+    margin-bottom: 18px;
+}
+.footerT dt img{
+    display: inline-block;
+}
+.footerT dd{
+    font-size: 18px;
+    line-height: 34px;
+}
+/* 页脚中部 */
+.footerC{
+    width: 1180px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 12px 0 42px 0;
+    position: relative;
+}
+.footerC ul{
+    float: left;
+    width: 152px;
+}
+#firstLi{
+    margin-bottom: 12px;
+}
+#firstLi a{
+    font-size: 16px;
+    color: #333;
+}
+.footerC ul li a{
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* 联系方式 */
+.footerC ol{
+    position: absolute;
+    right: 96px;
+}
+.footerC ol li{
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    height: 33px;
+}
+.footerC ol li b{
+    font-size: 16px;
+    color: #333;
+}
